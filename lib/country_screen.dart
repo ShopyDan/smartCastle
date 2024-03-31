@@ -42,9 +42,9 @@ class _CountryScreenState extends State<CountryScreen> {
     return Scaffold(
       backgroundColor: Colors.green,
       appBar: AppBar(backgroundColor: Colors.white,
-          title: Text('Country',
+          title: Text('Countries',
               style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 24,
                   fontWeight: FontWeight.bold,
                   color: Colors.black)),),
 
