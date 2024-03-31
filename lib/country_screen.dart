@@ -57,7 +57,7 @@ class _CountryScreenState extends State<CountryScreen> {
                     ExpansionTile(
                       leading: CircleAvatar(backgroundImage: NetworkImage(countries[index].flags!.png!),),
                       title: Text(countries[index].name!.common!),
-                      children: [ Text('Capital: ' + countries[index].capital!.first)],
+                      children: [ Text('Capital : ' + countries[index].capital!.first)],
                       
                     );
                     
