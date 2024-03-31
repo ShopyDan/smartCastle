@@ -42,9 +42,9 @@ class _CountryScreenState extends State<CountryScreen> {
     return Scaffold(
       backgroundColor: Colors.blue,
       appBar: AppBar(backgroundColor: Colors.blue,
-          title: Text('Страны',
+          title: Text('Country',
               style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 22,
                   fontWeight: FontWeight.bold,
                   color: Colors.white)),),
 
@@ -57,7 +57,7 @@ class _CountryScreenState extends State<CountryScreen> {
                     ExpansionTile(
                       leading: CircleAvatar(backgroundImage: NetworkImage(countries[index].flags!.png!),),
                       title: Text(countries[index].name!.common!),
-                      children: [ Text('Столица: ' + countries[index].capital!.first)],
+                      children: [ Text('Capital: ' + countries[index].capital!.first)],
                       
                     );
                     
