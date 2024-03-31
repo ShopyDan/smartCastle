@@ -40,13 +40,13 @@ class _CountryScreenState extends State<CountryScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
-      appBar: AppBar(backgroundColor: Colors.blue,
+      backgroundColor: Colors.green,
+      appBar: AppBar(backgroundColor: Colors.white,
           title: Text('Country',
               style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 30,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white)),),
+                  color: Colors.black)),),
 
 
                   body:
